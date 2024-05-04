@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    height: 100vh;
+    /* Full viewport height */
+}
+
+.college-logo {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+/* Example CSS for the watch icon */
+.fas.fa-stopwatch {
+    font-size: 1.5rem; /* Adjust the size as needed */
+    margin-left: 0.5rem; /* Add spacing between the countdown and the icon */
+}
+
+.time-section {
+    margin: 5 10px;
+    font-size: 14px;
+}
+
+.time-section span {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.container h2 {
+    font-size: 24px;
+    padding: 20px;
+    color: #4e2beb;
+}
+
+
+
+/* Styles for the countdown container */
+.countdown-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for the college logo */
+
+/* Styles for the countdown */
+.countdown {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+/* Styles for the square container holding the countdown */
+.time-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Styles for the hover effect */
+.time-section:hover {
+    background-color: #f0f0f0;
+    /* Change background color on hover */
+    cursor: pointer;
+    /* Change cursor to pointer on hover */
+}
+
+
+.days {
+    background-color: #4e2beb;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-flex;
+    justify-content: center;
+    justify-items: first baseline;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    color: #ffffff;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    align-self: center;
+}
+
+.hours {
+    background-color: #4e2beb;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    color: #ffffff;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+
+.minutes {
+    background-color: #4e2beb;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    color: #ffffff;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+
+.seconds {
+    background-color: #4e2beb;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    color: #ffffff;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+/* Styles for the hover effect */
+.time-section:hover {
+    background-color: #bc72e7;
+    /* Change background color on hover */
+    cursor: pointer;
+    /* Change cursor to pointer on hover */
+}
+
+/* Media queries */
+@media (min-width: 576px) {
+    .time-section {
+        width: calc(25% - 20px);
+        /* Adjust width to fit 4 sections in a row with margins */
+    }
+}
